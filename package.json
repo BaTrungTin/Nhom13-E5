@@ -1,0 +1,22 @@
+{
+  "name": "video-call-app",
+  "version": "1.0.0",
+  "description": "Video Call App với WebRTC",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "setup": "npm run install-all",
+    "clean": "rm -rf node_modules backend/node_modules frontend/node_modules",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["webrtc", "video-call", "react", "nodejs"],
+  "author": "Your Name",
+  "license": "MIT"
+}
