@@ -188,7 +188,6 @@ Các biến môi trường có thể cấu hình:
 
 - **Camera/Microphone không bắt buộc** - có thể tham gia mà không cần
 - **Gọi trực tiếp** - có thể gọi cho nhau thông qua room ID
-- Sử dụng STUN servers của Google để NAT traversal
 - Hỗ trợ các trình duyệt hiện đại với WebRTC
 - Tên người dùng sẽ được hiển thị trên video của họ
 - Nếu media bị lỗi, vẫn có thể tham gia cuộc gọi
