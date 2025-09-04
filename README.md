@@ -69,23 +69,6 @@ npm run build
 npm run clean
 ```
 
-## 🔧 Cấu hình
-
-### Environment Variables
-Tạo file `.env` từ `env.example` nếu cần thay đổi cấu hình:
-
-```bash
-cp env.example .env
-```
-
-Các biến môi trường có thể cấu hình:
-- `PORT`: Port cho backend server (mặc định: 3001)
-- `VITE_SERVER_URL`: URL của backend server cho frontend
-
-### Ports mặc định
-- **Backend**: 3001
-- **Frontend**: 5173 (Vite dev server)
-
 ## 📋 Tính năng
 
 - ✅ **Video call trực tiếp** sử dụng WebRTC
